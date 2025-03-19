@@ -6,8 +6,8 @@ Esta función agrega un nombre a la lista de amigos y lo muestra en la página.
 
 Valida que el usurio  ingrese un nombre al campo de entrada, muestra una alerta.
 
-Obtiene el nombre ingresado en el campo de entrada y lo guarda en la variable amigo, lo agrega al array listaAmigos usando .push(amigo), borra el contenido del campo de entrada (ingresoAmigos.value = ''), crea un nuevo elemento <li> y
-asigna como texto del <li> el nombre del amigo ingresado.
+Obtiene el nombre ingresado en el campo de entrada y lo guarda en la variable amigo, lo agrega al array listaAmigos usando .push(amigo), borra el contenido del campo de entrada (ingresoAmigos.value = ''), crea un nuevo elemento ```<li>``` y
+asigna como texto del ```<li>``` el nombre del amigo ingresado.
 
 
 Función **sortearAmigo()**
