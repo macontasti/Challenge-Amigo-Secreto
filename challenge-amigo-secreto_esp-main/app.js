@@ -16,14 +16,12 @@ function agregarAmigo() {
     let amigo = ingresoAmigos.value;
     listaAmigos.push(amigo);
     ingresoAmigos.value = '';
-    console.log(listaAmigos);
     
     // Agregar el nuevo amigo a la lista de manera correcta
     let nuevoElemento = document.createElement('li');
     nuevoElemento.textContent = amigo;
     listadeAmigos.appendChild(nuevoElemento);
     
-    //listadeAmigos.innerHTML += `<li>${listadeAmigos.value}</li>`;
 
 }
 
